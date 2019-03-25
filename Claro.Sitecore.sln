@@ -92,6 +92,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serializat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claro.Foundation.Serialization", "src\Foundation\Serialization\code\Claro.Foundation.Serialization.csproj", "{85F66B57-9A80-4B69-9FE9-75F94A1CF422}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{A7774C39-D9CD-4398-A083-1EC614323B44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claro.Foundation.Content", "src\Foundation\Content\code\Claro.Foundation.Content.csproj", "{B5B26E11-ABD1-4921-996A-F887A6313C3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -194,6 +198,10 @@ Global
 		{85F66B57-9A80-4B69-9FE9-75F94A1CF422}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85F66B57-9A80-4B69-9FE9-75F94A1CF422}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85F66B57-9A80-4B69-9FE9-75F94A1CF422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5B26E11-ABD1-4921-996A-F887A6313C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B26E11-ABD1-4921-996A-F887A6313C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B26E11-ABD1-4921-996A-F887A6313C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B26E11-ABD1-4921-996A-F887A6313C3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -238,6 +246,8 @@ Global
 		{D4607E53-0F4C-4CF3-B6F7-126E249F959F} = {E1B9B2D4-6B1B-4525-8D4A-D2B7B257B117}
 		{81F7C43B-2ECE-4CFC-954F-BE154A34F4BB} = {1EBC889B-FFB8-4471-8206-CA491C3FC687}
 		{85F66B57-9A80-4B69-9FE9-75F94A1CF422} = {81F7C43B-2ECE-4CFC-954F-BE154A34F4BB}
+		{A7774C39-D9CD-4398-A083-1EC614323B44} = {1EBC889B-FFB8-4471-8206-CA491C3FC687}
+		{B5B26E11-ABD1-4921-996A-F887A6313C3F} = {A7774C39-D9CD-4398-A083-1EC614323B44}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B395D77-18C3-4A2A-8E03-85DC8F0240FA}

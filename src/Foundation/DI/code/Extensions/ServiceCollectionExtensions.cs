@@ -1,14 +1,21 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Claro.Foundation.Core.Methods;
+using Microsoft.Extensions.DependencyInjection;
 using Sitecore.Mvc.Controllers;
 using System;
 using System.Linq;
 using System.Reflection;
-using Claro.Foundation.Core.Methods;
+using System.Runtime.CompilerServices;
 
 namespace Claro.Foundation.DI.Extensions
 {
     public static class ServiceCollectionExtensions
     {
+        [MethodImplAttribute(MethodImplOptions.NoInlining)]
+        public static void AddMvcControllersInCurrentAssembly(this IServiceCollection serviceCollection)
+        {
+            AddMvcControllers(serviceCollection, Assembly.GetCallingAssembly());
+        }
+
         public static void AddMvcControllers(this IServiceCollection serviceCollection, params string[] assemblyFilters)
         {
             var assemblies = GetAssemblies.GetByFilter(assemblyFilters);
